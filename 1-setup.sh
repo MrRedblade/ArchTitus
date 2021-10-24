@@ -10,7 +10,7 @@
 echo "--------------------------------------"
 echo "--          Network Setup           --"
 echo "--------------------------------------"
-pacman -S networkmanager dhclient --noconfirm --needed
+pacman -S iwd networkmanager dhclient --noconfirm --needed
 systemctl enable --now NetworkManager
 echo "-------------------------------------------------"
 echo "Setting up mirrors for optimal download          "
@@ -230,6 +230,7 @@ PKGS=(
 'zsh'
 'zsh-syntax-highlighting'
 'zsh-autosuggestions'
+'lutris'
 )
 
 for PKG in "${PKGS[@]}"; do

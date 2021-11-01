@@ -48,6 +48,11 @@ PKGS=(
 'ttf-meslo' # Nerdfont package
 'ttf-roboto'
 'snap-pac'
+'nvidia'
+'nvidia-utils'
+'mesa'
+'optimus-manager'
+'optimus-manager-qt'
 )
 
 for PKG in "${PKGS[@]}"; do
